@@ -310,6 +310,15 @@ section { padding: 5rem 2rem; }
 .form-group textarea { resize: vertical; min-height: 100px; }
 
 .form-submit { margin-top: 1.5rem; text-align: center; }
+.warning-school-email {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(248,113,113,0.12);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius);
+  color: var(--danger);
+  font-size: 0.95rem;
+}
 
 .btn-interested {
   background: linear-gradient(135deg, var(--primary), var(--accent));
